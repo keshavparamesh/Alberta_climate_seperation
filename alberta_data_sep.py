@@ -12,6 +12,8 @@ df = pd.read_csv ("Aquanty_daily_data_2010_+.csv")
 df2 = pd.DataFrame()
 df1 = pd.DataFrame(df.STATION.unique())
 
+print("hello world")
+
 for i in range (0, len(df1)):
     
     df2 = df[df.STATION == df1[0][i]]
